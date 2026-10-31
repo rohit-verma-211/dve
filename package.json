@@ -1,0 +1,1 @@
+{"name":"dve-ai","private":true,"scripts":{"dev":"concurrently \"npm run dev -w server\" \"npm run dev -w client\"","build":"npm run build -w client","start":"npm start -w server"},"workspaces":["server","client"],"devDependencies":{"concurrently":"^9.0.0"}}
